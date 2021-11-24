@@ -1,11 +1,9 @@
 import React from "react";
 
-export default function Navigation(currentPage, handlePageChange) {
+
+export default function Navigation({currentPage, handlePageChange}) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-brand" href="#">
-        Navbar
-      </button>
       <button
         class="navbar-toggler"
         type="button"
@@ -19,56 +17,44 @@ export default function Navigation(currentPage, handlePageChange) {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <button
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown link
-            </button>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
               <a
-                href="#about"
-                onClick={() => handlePageChange("About")}
+                href
+                onClick={() => handlePageChange("about")}
                 className={
                   currentPage === "About" ? "nav-link active" : "nav-link"
                 }
               >
-                Action
+                About Me
               </a>
               <a
-                href="#contact"
-                onClick={() => handlePageChange("Contact")}
+                href
+                onClick={() => handlePageChange("contact")}
                 className={
                   currentPage === "Contact" ? "nav-link active" : "nav-link"
                 }
               >
-                Another action
+                Contact Me
               </a>
               <a
-                href="#project"
-                onClick={() => handlePageChange("Project")}
+                href
+                onClick={() => handlePageChange("project")}
                 className={
                   currentPage === "Projects" ? "nav-link active" : "nav-link"
                 }
               >
-                Something else here
+                Projects
               </a>
               <a
-                href="#resume"
-                onClick={() => handlePageChange("Resume")}
+                href
+                onClick={() => handlePageChange("resume")}
                 className={
                   currentPage === "Resume" ? "nav-link active" : "nav-link"
                 }
               >
-                Something else here
+                Resume
               </a>
-            </div>
-          </li>
+           
         </ul>
       </div>
     </nav>
