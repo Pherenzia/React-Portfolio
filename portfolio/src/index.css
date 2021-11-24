@@ -18,3 +18,11 @@ code {
   height: 15rem;
   width: 30rem;
 }
+
+#contact {
+  display: flex;
+}
+
+.card {
+  width: 18rem;
+}
