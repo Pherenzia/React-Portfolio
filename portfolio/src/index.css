@@ -7,7 +7,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Colors */
 
+.independence-B {
+  background-color: #444554;
+}
+
+.heliotrope-B {
+  background-color: #9f949c;
+}
+
+.light-cyan-B {
+  background-color: #ddfff7;
+}
+
+.silver-sand-B {
+  background-color: #BECACA;
+}
+
+.independence-T {
+  color: #444554;
+}
+
+.heliotrope-T {
+  color: #9f949c;
+  text-decoration: none;
+}
+
+.light-cyan-T {
+  color: #ddfff7;
+}
+
+/* Spacing */
+
+.center {
+  text-align: center;
+}
+
+.margin {
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -19,6 +59,26 @@ code {
   width: 30rem;
 }
 
+#profile-pic {
+  height: 350px;
+  width: 245px;
+  margin: auto;
+  display: absolute;
+}
+
+
+.bio {
+  display: flex;
+}
+
+.about-me {
+  flex: 100%;
+}
+
+.whole-container {
+  background-color: teal;
+}
+
 #contact {
   display: flex;
 }
@@ -26,3 +86,18 @@ code {
 .card {
   width: 18rem;
 }
+
+
+@media screen and (min-width: 769px) {
+  .bio {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bio {
+    flex-direction: column;
+  }
+  #description {
+    text-align: center;
+  }
+ }

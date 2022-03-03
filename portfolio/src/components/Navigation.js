@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navigation({currentPage, handlePageChange}) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <button
         class="navbar-toggler"
         type="button"
@@ -19,6 +19,7 @@ export default function Navigation({currentPage, handlePageChange}) {
         <ul class="navbar-nav">
           
               <a
+                class="heliotrope-T"
                 href
                 onClick={() => handlePageChange("about")}
                 className={
@@ -28,6 +29,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 About Me
               </a>
               <a
+                class="heliotrope-T"
                 href
                 onClick={() => handlePageChange("contact")}
                 className={
@@ -37,6 +39,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 Contact Me
               </a>
               <a
+                class="heliotrope-T"
                 href
                 onClick={() => handlePageChange("project")}
                 className={
@@ -46,6 +49,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 Projects
               </a>
               <a
+                class="heliotrope-T"
                 href
                 onClick={() => handlePageChange("resume")}
                 className={

@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -33,9 +34,11 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
+      <Footer></Footer>
       {renderPage()}
     </div>
   );
+
 }
 
 export default App;

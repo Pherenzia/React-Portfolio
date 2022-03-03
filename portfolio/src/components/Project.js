@@ -12,7 +12,7 @@ export default function Project() {
             Work
             </a>
         </h2>
-         <a class="columncontainer" href="https://mojikalani.github.io/daily-zodiac-forecast/">
+        <a class="columncontainer" href="https://mojikalani.github.io/daily-zodiac-forecast/">
              <img class="workimg" id="firstimg"
             src={zodiac}
             alt="placeholder"
