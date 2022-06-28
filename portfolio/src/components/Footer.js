@@ -4,16 +4,20 @@ import Github from "./assets/github.png";
 
 export default function Footer() {
     return (
-    <div>
-        <a class="footer" href="https://mojikalani.github.io/daily-zodiac-forecast/">
-             <img class="workimg" id="firstimg"
+        <div class="footer">
+        <a  id="githubimg" href="https://github.com/pherenzia">
+             <img 
+            class="icon"
             src={Github}
             alt="placeholder"
             ></img>
-            <a href="https://github.com/mojikalani/daily-zodiac-forecast"> Link to the github </a>
-            <h3>
-                Western Horoscope
-            </h3>
+        </a>
+        <a id="linkedinimg" href="https://linkedin.com/in/mitchell-riley">
+             <img 
+            class="icon"
+            src={Linkedin}
+            alt="placeholder"
+            ></img>
         </a>
     </div>
     );

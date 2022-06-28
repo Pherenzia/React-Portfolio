@@ -34,8 +34,8 @@ function App() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      <Footer></Footer>
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 

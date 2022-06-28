@@ -54,6 +54,26 @@ code {
     monospace;
 }
 
+.icon {
+  display: block;
+  bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 7vh;
+  width: 7vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 3vh;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
 .workimg {
   height: 15rem;
   width: 30rem;
