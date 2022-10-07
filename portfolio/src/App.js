@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css"
 import "./App.css";
 import { useState } from "react";
 import About from "./components/About";

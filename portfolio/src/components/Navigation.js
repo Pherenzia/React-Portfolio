@@ -19,17 +19,17 @@ export default function Navigation({currentPage, handlePageChange}) {
         <ul class="navbar-nav">
           
               <a
-                class="heliotrope-T"
+                class="heliotrope-T nav-button"
                 href
                 onClick={() => handlePageChange("about")}
                 className={
-                  currentPage === "About" ? "nav-link active" : "nav-link"
+                  currentPage === "About" ? "nav-link active heliotrope-T nav-button" : "nav-link"
                 }
               >
                 About Me
               </a>
               <a
-                class="heliotrope-T"
+                class="heliotrope-T nav-button"
                 href
                 onClick={() => handlePageChange("contact")}
                 className={
@@ -39,7 +39,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 Contact Me
               </a>
               <a
-                class="heliotrope-T"
+                class="heliotrope-T nav-button"
                 href
                 onClick={() => handlePageChange("project")}
                 className={

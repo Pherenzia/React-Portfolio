@@ -10,7 +10,7 @@ export default function About() {
           <img 
             id="profile-pic"
             src={profile} 
-            alt="Myself">
+            alt="Profile-image">
             </img>
           <p id="description">
             Full-stack web developer with extensive background in communication and
