@@ -109,7 +109,7 @@ code {
 
 .nav-button {
   text-decoration: none;
-  transition: background-color 0.5s, outline 0.5s;
+  transition: background-color 2.5s, outline 2.5s ease-in-out;
 }
 
 .nav-button:hover {
@@ -121,6 +121,7 @@ code {
   text-decoration: none;
   
 }
+
 
 
 @media screen and (min-width: 769px) {

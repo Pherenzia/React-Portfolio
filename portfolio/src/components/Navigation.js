@@ -16,14 +16,14 @@ export default function Navigation({currentPage, handlePageChange}) {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav nav-buton">
           
               <a
                 class="heliotrope-T nav-button"
                 href
                 onClick={() => handlePageChange("about")}
                 className={
-                  currentPage === "About" ? "nav-link active heliotrope-T nav-button" : "nav-link"
+                  currentPage === "About" ? "nav-link active heliotrope-T nav-button" : "nav-link heliotrop-T nav-button"
                 }
               >
                 About Me
@@ -33,7 +33,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 href
                 onClick={() => handlePageChange("contact")}
                 className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                  currentPage === "Contact" ? "nav-link active heliotrop-T nav-button" : "nav-link heliotrop-T nav-button"
                 }
               >
                 Contact Me
@@ -43,7 +43,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 href
                 onClick={() => handlePageChange("project")}
                 className={
-                  currentPage === "Projects" ? "nav-link active" : "nav-link"
+                  currentPage === "Projects" ? "nav-link active" : "nav-link heliotrop-T nav-button"
                 }
               >
                 Projects
@@ -53,7 +53,7 @@ export default function Navigation({currentPage, handlePageChange}) {
                 href
                 onClick={() => handlePageChange("resume")}
                 className={
-                  currentPage === "Resume" ? "nav-link active" : "nav-link"
+                  currentPage === "Resume" ? "nav-link active" : "nav-link heliotrop-T nav-button"
                 }
               >
                 Resume
